@@ -1,0 +1,27 @@
+main {
+  padding-top: 100px;
+}
+
+@media (min-width: 768px) {
+  .product-card-details {
+    max-height: 640px;
+  }
+}
+
+.product-card-details {
+  border-radius: 8px;
+  box-shadow: 0 7px 25px -10px rgba(0,0,0,0.33);
+}
+
+.product-card-details-img {
+  width: 100%;
+  max-height: 620px;
+  object-fit: cover;
+}
+
+.product-card-details-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
